@@ -1,0 +1,393 @@
+@font-face{
+    font-family: 'Shrikhand';
+    src: url('https://fonts.googleapis.com/css2?family=Shrikhand&display=swap');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face{
+    font-family: 'Roboto';
+    src: url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    width: 100%;
+}
+
+.header-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 110px;
+    align-items: center;
+}
+
+.page_logo{
+    justify-content: center;
+    display: flex;
+    height: 3em;
+}
+
+.page_logo img{
+    height: 145%;
+    padding-left: 2em;
+}
+
+
+.img{
+    display: flex;
+    justify-content: center;
+    font-family: 'Shrikhand', sans-serif;
+}
+
+.search-container{
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 3em;
+}
+
+.search-btn-container{
+    display: flex;
+    width: 100%;
+    font-size: 35px;
+    justify-content: center;
+    align-items: baseline;
+    border: 1px solid transparent;
+    background-color: #EFEFEF;
+    border-top: 5px solid silver;
+}
+
+.search-btn-container i{
+    padding-right: 10px;
+}
+
+.search-btn-container p{
+    font-size: 40px;
+    font-weight: bold;
+    padding-left: 10px;
+}
+
+.booked{
+    
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+ 
+.booked h2{
+    font-size: 5em;
+    font-weight: bold;
+    text-align: center;
+    height: 120px;
+}
+
+
+.booked p{
+    font-size: 77px;
+    font-weight: bold;
+    display: flex;
+    text-align: center;
+}
+
+.discover p{
+    text-align: center;
+    font-size: 43px;
+}
+
+.explorer{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.explorer p{
+    font-size: 43px;
+    border: 1px solid transparent;
+    padding: 20px;
+    border-radius: 70px;
+    background-color: #9356DC;
+    color: white;
+    width: 58%;
+    display: flex;
+    justify-content: center;
+    height: 90px;
+    align-items: center;
+}
+
+
+
+
+
+/* <!--2eme section--!> */
+
+.title-function h2{
+    padding-left: 1em;
+    font-size: 54px;
+    font-weight: bold;
+    padding-top: 1em;
+}
+
+.function-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 40em;
+    padding-bottom: 15em;
+}
+
+.item-choice{
+    height: 36em;
+    display: flex;
+    align-items: center;
+    border-radius: 52px;
+    padding: 0 10px 0 55px;
+    border: 1px solid transparent;
+    width: 80%;
+    background-color: whitesmoke;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.function-container .item-choice{
+    margin: 2em;
+    
+}
+
+
+.choice{
+    border: 1px solid;
+    border-radius: 61px;
+    width: 8%;
+    display: flex;
+    justify-content: center;
+    background-color: #9356DC;
+    color: white;
+    height: 33%;
+    margin-left: -82px;
+    margin-right: 4em;
+}
+
+.choice p{
+    font-size: 19px;
+}
+
+.function-container i{
+    font-size: 3em;
+    margin-right: 2em;
+}
+
+.function-container h3{
+    font-size: 37px;
+    font-weight: bold;
+}
+
+.fa-store:before {
+    content: "\f54e";
+    color: #9356DC;
+    font-size: 35px;
+}
+
+
+
+
+
+
+/* <!--3eme section--!> */
+
+.restaurants-container{
+    width: 100%;
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 6em;
+}
+
+
+.restaurants-container h2{
+    padding-left: 1em;
+    font-size: 3em;
+    padding-top: 1em;
+}
+
+.item-restaurants{
+    border: 1px solid transparent;
+    width: 90%;
+    margin-left: 3em;
+    border-radius: 62px;
+    position: relative;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    height: 709px;
+}
+
+.item-restaurants .picture-new-restaurant .img-1 {
+    background-image: url("images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg");
+    height: 546px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    border-top-left-radius: 62px;
+    border-top-right-radius: 62px;
+}
+
+.item-restaurants .picture-new-restaurant .img-2 {
+    background-image: url("images/restaurants/stil-u2Lp8tXIcjw-unsplash.jpg");
+    height: 546px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    border-top-left-radius: 62px;
+    border-top-right-radius: 62px;
+}
+
+.item-restaurants .img-3{
+    background-image: url("images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg");
+    height: 546px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    border-top-left-radius: 62px;
+    border-top-right-radius: 62px; 
+}
+
+.item-restaurants .img-4{
+    background-image: url("images/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg");
+    height: 546px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    border-top-left-radius: 62px;
+    border-top-right-radius: 62px; 
+}
+
+.name-location-restaurant{
+    height: 8em;
+    position: relative;
+}
+
+.picture-new-restaurant p{
+    border: 1px solid transparent;
+    width: 17%;
+    height: 42px;
+    display: flex;
+    align-items: center;
+    background-color: #99E2D0;
+    position: absolute;
+    top: 1em;
+    right: 1em;
+    justify-content: center;
+    font-size: 26px;
+}
+
+.name-heart-icon-right{
+    flex-direction: row;
+    display: flex;
+}
+
+.name-heart-icon-right h3{
+    margin-left: 1em;
+    font-size: 36px;
+    font-weight: bold;
+    width: 50%;
+}
+
+.name-heart-icon-right i{
+    width: 40%;
+    font-size: 3em;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.name-location-restaurant p{
+    margin-left: 1em;
+    font-size: 34px;
+    width: 50%;
+    position: absolute;
+    top: 55px;
+}
+
+
+
+
+
+
+
+
+
+/* <!--Footer--> */
+
+.bloc-information-ohmyfood{
+    background-color: black;
+    color: whitesmoke;
+    width: 100%;
+    height: 35em;
+    justify-content: flex;
+    display: flex;
+    flex-direction: column;
+}
+
+.bloc-information-ohmyfood .logo-footer .img{
+    height: 84px;
+    width: 48%;
+}
+
+.logo-footer img{
+    margin: 3em;
+}
+    
+
+.icon-left-propose{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 3em;
+}
+
+.icon-left-propose p{
+    width: 100%;
+    font-size: 38px;
+}
+
+.fa-utensils:before {
+    content: "\f2e7";
+    font-size: 45px;
+    margin-right: 1em;
+}
+
+.partner{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 3em;
+    height: 2em; 
+}
+
+.partner p{
+    font-size: 38px;
+}
+
+.partner i{
+    font-size: 38px;
+    margin-right: 1em;
+}
+
+.contact{
+    padding-left: 3em;
+    height: 1em;
+
+}
+
+.contact p{
+    font-size: 38px;
+}
+
+
+
+
