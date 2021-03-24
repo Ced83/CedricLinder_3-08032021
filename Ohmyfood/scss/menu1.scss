@@ -1,0 +1,224 @@
+@font-face{
+    font-family: 'Shrikhand', cursive;
+    src: url('https://fonts.googleapis.com/css2?family=Shrikhand&display=swap');
+    font-weight: normal;
+    font-style: normal;
+}
+   
+
+
+@font-face{
+    font-family: 'Roboto';
+    src: url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    width: 100%;
+}
+
+#bloc-page{
+    width: 100%;
+    height: 100%;
+}
+
+.header-container{
+    padding-top: 3em;
+}
+
+
+.page_logo{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-bottom: 2em;
+}
+
+.page_logo i{
+    font-size: 50px;
+    margin-left: 1em;
+    color: black;
+}
+
+.page_logo img{
+    width: 46%;
+    margin-left: 11em;
+}
+
+.img-restaurant-1{
+    background-image: url("../images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg");
+    height: 540px;
+    width: 100%;
+    background-size: cover;
+    position: relative;
+}
+
+.meal-container{
+    border: 1px solid transparent;
+    border-top-left-radius: 69px;
+    border-top-right-radius: 69px;
+    padding-top: 2em;
+    background-color: whitesmoke;
+    width: 100%;
+    height: 80%;
+}
+
+.title-meal-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    height: 7em;
+}
+
+.title-meal-container h2{
+    font-size: 5em;
+    font-family: 'shrikhand';
+    font-weight: bold;
+    margin-left: 0.5em;
+    width: 86%;
+}
+
+.meal-container h3{
+    font-size: 40px;
+    margin-left: 1em;
+}
+
+.title-meal-container i{
+    font-size: 4em;
+    width: 16%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: end;
+}
+
+.first-choice{
+    border: 1px solid transparent;
+    width: 93%;
+    height: 10em;
+    margin-left: 2em;
+    border-radius: 37px;
+    box-shadow: rgb(0 0 0 / 24%) 0px 3px 8px;
+    background-color: white;
+}
+
+
+.second-choice{
+    border: 1px solid transparent;
+    width: 93%;
+    height: 13%;
+    margin-left: 2em;
+    border-radius: 37px;
+    box-shadow: rgb(0 0 0 / 24%) 0px 3px 8px;
+    background-color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.order{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+
+
+.order p{
+    font-size: 43px;
+    border: 1px solid transparent;
+    padding: 20px;
+    border-radius: 70px;
+    background: linear-gradient(#FF79DA, #9356DC);
+    color: white;
+    width: 58%;
+    display: flex;
+    justify-content: center;
+    height: 90px;
+    align-items: center;
+}
+
+
+.bloc-information-ohmyfood{
+    background-color: black;
+    color: whitesmoke;
+    width: 100%;
+    height: 35em;
+    justify-content: flex;
+    display: flex;
+    flex-direction: column;
+}
+
+.bloc-information-ohmyfood h2{
+    font-size: 4em;
+    margin-left: 0.5em;
+}
+
+
+    
+
+.icon-left-propose{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 3em;
+}
+
+.icon-left-propose p{
+    width: 100%;
+    font-size: 38px;
+}
+
+.fa-utensils:before {
+    content: "\f2e7";
+    font-size: 45px;
+    margin-right: 1em;
+}
+
+.partner{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 3em;
+    height: 2em; 
+}
+
+.partner p{
+    font-size: 38px;
+}
+
+.partner i{
+    font-size: 38px;
+    margin-right: 1em;
+}
+
+.contact{
+    padding-left: 3em;
+    height: 1em;
+
+}
+
+.contact p{
+    font-size: 38px;
+}

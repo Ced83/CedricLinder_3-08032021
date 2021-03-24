@@ -1,10 +1,12 @@
+
 @font-face{
-    font-family: 'Shrikhand';
+    font-family: 'Shrikhand', cursive;
     src: url('https://fonts.googleapis.com/css2?family=Shrikhand&display=swap');
     font-weight: normal;
     font-style: normal;
-
 }
+   
+
 
 @font-face{
     font-family: 'Roboto';
@@ -114,7 +116,7 @@ body {
     border: 1px solid transparent;
     padding: 20px;
     border-radius: 70px;
-    background: linear-gradient(#e66465, #9198e5);
+    background: linear-gradient(#FF79DA, #9356DC);
     color: white;
     width: 58%;
     display: flex;
@@ -230,13 +232,9 @@ body {
     margin-bottom: 3em;
 }
 
-#img-1{
-    text-decoration: none;
-    cursor: progress;
-}
 
-.item-restaurants .picture-new-restaurant .img-1 {
-    background-image: url("images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg");
+.picture-new-restaurant .img-1 {
+    background-image: url("../images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg");
     height: 540px;
     width: 100%;
     background-size: cover;
@@ -245,8 +243,8 @@ body {
     border-top-right-radius: 62px;
 }
 
-.item-restaurants .picture-new-restaurant .img-2 {
-    background-image: url("images/restaurants/stil-u2Lp8tXIcjw-unsplash.jpg");
+.picture-new-restaurant .img-2 {
+    background-image: url("../images/restaurants/stil-u2Lp8tXIcjw-unsplash.jpg");
     height: 546px;
     width: 100%;
     background-size: cover;
@@ -256,7 +254,7 @@ body {
 }
 
 .item-restaurants .img-3{
-    background-image: url("images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg");
+    background-image: url("../images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg");
     height: 546px;
     width: 100%;
     background-size: cover;
@@ -266,7 +264,7 @@ body {
 }
 
 .item-restaurants .img-4{
-    background-image: url("images/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg");
+    background-image: url("../images/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg");
     height: 546px;
     width: 100%;
     background-size: cover;
@@ -333,13 +331,6 @@ body {
 }
 
 
-
-
-
-
-
-
-
 /* <!--Footer--> */
 
 .bloc-information-ohmyfood{
@@ -352,14 +343,12 @@ body {
     flex-direction: column;
 }
 
-.bloc-information-ohmyfood .logo-footer .img{
-    height: 84px;
-    width: 48%;
+.bloc-information-ohmyfood h2{
+    font-size: 4em;
+    margin-left: 0.5em;
 }
 
-.logo-footer img{
-    margin: 3em;
-}
+
     
 
 .icon-left-propose{
